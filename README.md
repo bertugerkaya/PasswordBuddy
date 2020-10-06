@@ -6,3 +6,8 @@ You can see the screenshots in Issues
 # Usage
 python passwordbuddy.py
 
+
+
+![resim](https://user-images.githubusercontent.com/52252889/95190817-858ef100-07d8-11eb-9b30-aba79cbef64d.png)
+
+
