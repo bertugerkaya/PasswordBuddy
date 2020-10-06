@@ -7,6 +7,7 @@
 
 
 
-![resim](https://user-images.githubusercontent.com/52252889/95190817-858ef100-07d8-11eb-9b30-aba79cbef64d.png)
+![image](https://user-images.githubusercontent.com/52252889/95209851-78cbc680-07f3-11eb-811c-7758547fc01b.png)
+
 
 
