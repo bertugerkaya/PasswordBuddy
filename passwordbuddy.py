@@ -3,17 +3,8 @@ import time
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.keys import Keys
 
-class bcolors:
-    HEADER = '\033[95m'
-    OKBLUE = '\033[94m'
-    OKGREEN = '\033[92m'
-    WARNING = '\033[93m'
-    FAIL = '\033[91m'
-    ENDC = '\033[0m'
-    BOLD = '\033[1m'
-    UNDERLINE = '\033[4m'
 
-print(bcolors.WARNING + '''
+print('''
 
 █▀█ ▄▀█ █▀ █▀ █░█░█ █▀█ █▀█ █▀▄   █▄▄ █░█ █▀▄ █▀▄ █▄█
 █▀▀ █▀█ ▄█ ▄█ ▀▄▀▄▀ █▄█ █▀▄ █▄▀   █▄█ █▄█ █▄▀ █▄▀ ░█░
@@ -22,13 +13,13 @@ print(bcolors.WARNING + '''
 Cʜᴏᴏsᴇ ᴛʜᴇ ʟᴀɴɢᴜᴀɢᴇ! / Dɪʟ Sᴇᴄɪɴɪᴢ!
 1) Eɴɢʟɪsʜ
 2) Tᴜʀᴋᴄᴇ
-''' + bcolors.ENDC)
+''')
 
 language = input(str("Choice / Secim: "))
 time.sleep(1)
 
 
-print(bcolors.WARNING + '''
+print('''
 
 
 █▀█ ▄▀█ █▀ █▀ █░█░█ █▀█ █▀█ █▀▄   █▄▄ █░█ █▀▄ █▀▄ █▄█
@@ -41,7 +32,7 @@ Cʜᴏᴏsᴇ ᴛʜᴇ Pʟᴀᴛғᴏʀᴍ:
 3) Gɪᴛʜᴜʙ 
 4) Gᴍᴀɪʟ (Sᴏᴏɴ!)
 5) Tᴡɪᴛᴛᴇʀ (Sᴏᴏɴ!)
-''' + bcolors.ENDC)
+''')
 time.sleep(1)
 
 if language =="1":
