@@ -1,9 +1,9 @@
 # PasswordBuddy
-##### Change Passwords Quickly!
-##### Firstable this tool works fine on Windows operating system.I will update tool for Linux and other systems soon.
+##### - Change Passwords Quickly!
+##### - Firstable this tool works fine on Windows operating system.I will update tool for Linux and other systems soon.
 
 ### Usage
-##### python passwordbuddy.py
+##### - python passwordbuddy.py
 
 
 
