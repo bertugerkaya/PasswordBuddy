@@ -11,3 +11,6 @@
 
 
 
+## Updates
+#### Tool can change Github Passwords now.
+#### Tool will work in background
