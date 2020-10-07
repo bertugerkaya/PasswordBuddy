@@ -51,8 +51,10 @@ if language =="1":
         print("Started! ")
         time.sleep(1)
 
+        workonbg = webdriver.FirefoxOptions()
+        workonbg.headless = True
         path = 'C:\\Users\\kral_\\OneDrive\\Masaüstü\\path\\geckodriver.exe'
-        browser = webdriver.Firefox(executable_path=path)
+        browser = webdriver.Firefox(options=workonbg,executable_path=path)
 
 
         browser.get('https://www.instragram.com/')
@@ -97,8 +99,10 @@ if language =="1":
         time.sleep(1)
         print("Started! ")
 
+        workonbg = webdriver.FirefoxOptions()
+        workonbg.headless = True
         path = 'C:\\Users\\kral_\\OneDrive\\Masaüstü\\path\\geckodriver.exe'
-        browser = webdriver.Firefox(executable_path=path)
+        browser = webdriver.Firefox(options=workonbg,executable_path=path)
 
 
         browser.get('https://www.facebook.com/')
@@ -147,8 +151,10 @@ if language =="1":
         time.sleep(1)
         print("Started! ")
         
+        workonbg = webdriver.FirefoxOptions()
+        workonbg.headless = True
         path = 'C:\\Users\\kral_\\OneDrive\\Masaüstü\\path\\geckodriver.exe'
-        browser = webdriver.Firefox(executable_path=path)
+        browser = webdriver.Firefox(options=workonbg,executable_path=path)
 
 
         browser.get('https://www.github.com/login')
@@ -199,8 +205,10 @@ elif language=="2":
         print("Işlem Başladı! ")
         time.sleep(1)
 
+        workonbg = webdriver.FirefoxOptions()
+        workonbg.headless = True
         path = 'C:\\Users\\kral_\\OneDrive\\Masaüstü\\path\\geckodriver.exe'
-        browser = webdriver.Firefox(executable_path=path)
+        browser = webdriver.Firefox(options=workonbg,executable_path=path)
 
 
         browser.get('https://www.instragram.com/')
@@ -245,8 +253,10 @@ elif language=="2":
         time.sleep(1)
         print("Işlem Başladı! ")
 
+        workonbg = webdriver.FirefoxOptions()
+        workonbg.headless = True
         path = 'C:\\Users\\kral_\\OneDrive\\Masaüstü\\path\\geckodriver.exe'
-        browser = webdriver.Firefox(executable_path=path)
+        browser = webdriver.Firefox(options=workonbg,executable_path=path)
 
 
         browser.get('https://www.facebook.com/')
@@ -295,24 +305,10 @@ elif language=="2":
         time.sleep(1)
         print("Işlem Başladı! ")
         
+        workonbg = webdriver.FirefoxOptions()
+        workonbg.headless = True
         path = 'C:\\Users\\kral_\\OneDrive\\Masaüstü\\path\\geckodriver.exe'
-        browser = webdriver.Firefox(executable_path=path)
-
-
-        gtuserid = input('Kullanıcı adınızı giriniz: ')
-        gtuserpwd = input('Şifrenizi Giriniz: ')
-        gtusernew = input('Yeni Sifrenizi Giriniz: ')
-        print("3...")
-        time.sleep(1)
-        print("2...")
-        time.sleep(1)
-        print("1...")
-        time.sleep(1)
-        print("Işlem Başladı! ")
-        
-        path = 'C:\\Users\\kral_\\OneDrive\\Masaüstü\\path\\geckodriver.exe'
-        browser = webdriver.Firefox(executable_path=path)
-
+        browser = webdriver.Firefox(options=workonbg,executable_path=path)
 
         browser.get('https://www.github.com/login')
         time.sleep(3)
