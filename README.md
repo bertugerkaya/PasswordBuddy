@@ -1,6 +1,6 @@
 # PasswordBuddy
 ##### - Change Passwords Quickly!
-##### - Firstable this tool works fine on Windows operating system.I will update tool for Linux and other systems soon.
+##### - Firstable this tool works on Windows os and Linux. 
 
 ## Usage
 ##### - python passwordbuddy.py
@@ -13,4 +13,5 @@
 
 ## Updates
 #### - Tool can change Github Passwords now.
-#### - Tool will work in background
+#### - Tool will work in background.
+#### - Tool updated for Linux.
